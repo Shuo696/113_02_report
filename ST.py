@@ -530,7 +530,7 @@ cv2.destroyAllWindows()
                 架構圖
                 </p>
                 """, unsafe_allow_html=True)
-            st.image("png/p3.png")
+            st.image("png/p2.png")
 
 
     elif submenu == "2.6 設計問題三":
@@ -546,7 +546,7 @@ cv2.destroyAllWindows()
                 架構圖
                 </p>
                 """, unsafe_allow_html=True)
-            st.image("png/p3.png")
+            st.image("png/000.png")
 
 elif menu == "第三章 結果與討論":
     
