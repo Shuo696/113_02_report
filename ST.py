@@ -12,14 +12,14 @@ def aiot_system():
     from dotenv import load_dotenv
 
     load_dotenv(dotenv_path="api.env")  # ← 指定你的 env 檔名稱
-    openai_api_key = os.getenv("OPENai")
+    openai_api_key = os.getenv("OPENAI_API_KEY")
     
 
     # Whisper 語音辨識模型載入
     whisper_model = whisper.load_model("base")
 
     # OpenAI API Key 設定
-    client = OpenAI(api_key=os.getenv("OPENai"))
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
     # Streamlit UI
     st.markdown("<h2 style='text-align: left;'>AIoT 智慧互動系統</h2>", unsafe_allow_html=True)
