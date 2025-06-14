@@ -19,7 +19,7 @@ def aiot_system():
     whisper_model = whisper.load_model("base")
 
     # OpenAI API Key 設定
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    client = OpenAI(api_key=os.getenv("OPEN"))
 
     # Streamlit UI
     st.markdown("<h2 style='text-align: left;'>AIoT 智慧互動系統</h2>", unsafe_allow_html=True)
