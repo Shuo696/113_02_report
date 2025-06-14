@@ -546,7 +546,7 @@ cv2.destroyAllWindows()
                 架構圖
                 </p>
                 """, unsafe_allow_html=True)
-            st.image("png/pp3.png")
+            st.image("png/p2.png")
 
 elif menu == "第三章 結果與討論":
     
