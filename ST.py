@@ -12,7 +12,7 @@ def aiot_system():
     from dotenv import load_dotenv
 
     load_dotenv(dotenv_path="api.env")  # ← 指定你的 env 檔名稱
-    openai_api_key = os.getenv("OPENAI_API_KEY")
+    openai_api_key = os.getenv("OPEN")
     
 
     # Whisper 語音辨識模型載入
