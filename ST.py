@@ -530,7 +530,7 @@ cv2.destroyAllWindows()
                 架構圖
                 </p>
                 """, unsafe_allow_html=True)
-            st.image("png/p2.png")
+            st.image("png/p3.png")
 
 
     elif submenu == "2.6 設計問題三":
