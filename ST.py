@@ -100,7 +100,7 @@ if menu == "首頁":
     st.markdown("<h2 style='text-align: center;'>AIoT 系統整合設計與應用-以物件辨識+LLM+ROS2 技術之整合問題為例</h2>", unsafe_allow_html=True)
  
     # 顯示一張圖片(image)
-    image_path = "D:/Theme_1/ppt/png/0.jpg"
+    image_path = "png/0.jpg"
     # 三欄排版，圖片放中間欄
     col1, col2, col3 = st.columns([1, 2, 1])
     with col2:
@@ -424,7 +424,7 @@ cv2.destroyAllWindows()
                 架構圖
                 </p>
                 """, unsafe_allow_html=True)
-            st.image("D:/Theme_1/ppt/png/p1.png")
+            st.image("png/p1.png")
 
 
     elif submenu == "2.5 設計問題二":
@@ -530,7 +530,7 @@ cv2.destroyAllWindows()
                 架構圖
                 </p>
                 """, unsafe_allow_html=True)
-            st.image("D:/Theme_1/ppt/png/p2.png")
+            st.image("png/p2.png")
 
 
     elif submenu == "2.6 設計問題三":
@@ -546,7 +546,7 @@ cv2.destroyAllWindows()
                 架構圖
                 </p>
                 """, unsafe_allow_html=True)
-            st.image("D:/Theme_1/ppt/png/p3.png")
+            st.image("png/p3.png")
 
 elif menu == "第三章 結果與討論":
     
@@ -554,9 +554,9 @@ elif menu == "第三章 結果與討論":
     if submenu == "3.1 設計問題一":
 
         st.title('成果展示')
-        st.image("D:/Theme_1/ppt/png/1.png")
-        st.image("D:/Theme_1/ppt/png/2.png")
-        st.video("D:/Theme_1/ppt/video/NO_1.mp4") 
+        st.image("png/1.png")
+        st.image("png/2.png")
+        st.video("video/NO_1.mp4") 
 
         st.title('主題一討論')
         st.markdown("""
@@ -782,7 +782,7 @@ elif menu == "分工表":
             成員簽名：
         </p>
         """, unsafe_allow_html=True)
-    st.image("D:/Theme_1/ppt/png/N1.png")
-    st.image("D:/Theme_1/ppt/png/N2.png")
-    st.image("D:/Theme_1/ppt/png/N3.jpg")
-    st.image("D:/Theme_1/ppt/png/N4.jpg")
+    st.image("png/N1.png")
+    st.image("png/N2.png")
+    st.image("png/N3.jpg")
+    st.image("png/N4.jpg")
